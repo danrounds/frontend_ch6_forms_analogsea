@@ -12,21 +12,18 @@
         <img src="logo.png" alt="AnalogSea" />
       </header>
 
-      <!-- <div class="signup"> -->
+      <form method="post" action="/signup">
+        <h1>Sign up</h1>
 
-        <form method="post" action="/signup">
-          <h1>Sign up</h1>
+        <label for="email" required>Email</label>
+        <input placeholder="dodongo@gmail.com" type="email" name="email" id="email" required />
+        
+        <label for="password" required>Password</label>
+        <input placeholder="1234passw0rd" type="password" name="password" id="password" required/>
 
-          <label for="email" required>Email</label>
-          <input placeholder="dodongo@gmail.com" type="email" name="email" id="email" />
-          
-          <label for="password" required>Password</label>
-          <input placeholder="1234passw0rd" type="password" name="password" id="password" />
-
-          <button type="submit">Sign up</button>
-          <a href="nothing.no" class="nopassword">Forgot password?</a>
-        </form>
-      <!-- </div> -->
+        <button type="submit">Sign up</button>
+        <a href="nothing.no" class="nopassword">Forgot password?</a>
+      </form>
 
       <div class="login">Already have an account? <a href="/login">Log in</a></div>
 
