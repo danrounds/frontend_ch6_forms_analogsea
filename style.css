@@ -20,7 +20,8 @@ img {
     margin-top: 35px;
 }
 
-.signup {
+/* .signup { */
+form {
     box-sizing: border-box;
     width: 400px;
     padding: 40px;
@@ -62,11 +63,19 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
 .nopassword:link {
     color: gray;
     font-weight: 200;
 }
 
+.nopassword:hover {
+    color: #111111;
+}
 
 .login {
     margin-top: 15px;
@@ -76,4 +85,8 @@ button {
 
 .login a:link {
     color: white;
+}
+
+.login a:hover {
+    color: orange;
 }
